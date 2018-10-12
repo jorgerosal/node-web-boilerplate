@@ -1,4 +1,4 @@
-## Node Web Boilerplate (Node.js)
+## Node Web Boilerplate (Traditional Express-Node.js Web App)
 Clean and minimalistic boilerplate to start your NodeJs web application project.
 
 ### 📂 Current Tools
