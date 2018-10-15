@@ -43,33 +43,14 @@ This project currently supports the following:
 
 ###  📘 Why is it important to use env file?
 It has variety of usage. Find out [more](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7).
-But the sole purpose of using .env file for our project is to secure our credentials such as logins, api keys, and other important stuff. It is important not to include your .env file when you in our repository specially when your project is public. It's easy
-
-### 🏗 Project Structure
-    nodejs-boilerplate
-      ├── core
-      │   ├── custom-subfolder-example
-      │   │   ├── example1.js
-      │   │   ├── example2.js
-      │   │   └── example3.js
-      │   │
-      │   ├── your-script.js
-      │   └── hello-world.js
-      │
-      ├── .env.example
-      ├── .env
-      ├── .plans
-      ├── .gitignore
-      ├── server.js      
-      ├── package.json
-      └── README.md
-
-### Initial Dependency
-  - [ckey](https://www.npmjs.com/package/ckey) - a dotenv helper for accessing process.env object from sub-directory.
+But the sole purpose of using .env file for our project is to secure our credentials such as logins, api keys, and other important stuff. It is important not to include your .env file when you in our repository specially when your project is public.
 
 ### 💬 Tech Support
   - If things went wrong, google it first. People ahead of you have had similar issues in the past and solved it.
   - Last resort. -- Contact Jorge. He'd be happy to help you.
+
+### Credit
+This project is inspired by [megaboilerplate](http://megaboilerplate.com).
 
 ### 🎩 Authors
   - Jorge Rosal - [GitHub](https://github.com/yortrosal)
