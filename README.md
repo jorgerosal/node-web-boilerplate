@@ -1,7 +1,5 @@
-# WORK IN PROGRESS.......................
-
 ## Node Web Boilerplate (Traditional Express-Node.js Web App)
-Clean and minimalistic boilerplate to start your NodeJs web application project.
+Clean and minimalistic boilerplate to start your NodeJs web application project with authentication support.
 
 ### 📂 Current Tools
 This project currently supports the following:
@@ -15,12 +13,11 @@ This project currently supports the following:
 - **Deployment**: heroku
 
 ### ⭐ Good for
-  - Building a basic nodeJs app.
+  - Building a quick node app.
   - Stand-alone scripting and automation tool.
   - Fully customizable project.
   - Clean file structuring.
   - Following standard naming conventions so collaborators/team8s can understand easily your code.
-  - Securing your login and api key details by using environment variable -- [dotenv](https://github.com/motdotla/dotenv)
 
 ### 📂 Prerequisites
  - NodeJs, git installed in your local environment.
@@ -36,7 +33,7 @@ This project currently supports the following:
 2. run ```$ npm install``` to install initial dependencies.
 3. Make sure you have .env file available.
    Or generate one:  ```$ cp .env.example .env``` (edit it with your secret keys and other credentials)
-4. Once you have the .env file setup in the main directory.
+4. Once you have the .env file setup in the main directory. *Make sure you include the mysql database where user authentication will be stored.*
 5. run ▶️ ```$ npm start``` to start the program. It will run the script from the app.js file.
 6. Modify the package.json file. Edit the project name and other stuff.
 7. Finally, start and build your application scripts. Customize your project however you like.
